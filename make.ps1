@@ -8,6 +8,6 @@ switch ($Target) {
         Write-Host "Usage: .\make.ps1 [run|build|test]"
         Write-Host "  run   - go run ./cmd/server"
         Write-Host "  build - go build -o bin/server.exe ./cmd/server" 
-        Write-Host "  test  - go test ./internal/api/..."
+        Write-Host "  test  - go test -v ./internal/api/..."
     }
 }
